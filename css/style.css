@@ -84,3 +84,8 @@ h1 {
     background-color: #50D8AF !important;
 }
 /* fin testimonials */
+
+/* debut section action */
+.my-btn {
+    border: 2px solid #fff !important;
+}
