@@ -16,6 +16,14 @@ body {
 .underline {
     text-decoration: underline;
 }
+.underline-title{
+    width: 100%;
+    height: 3px;
+    background-color: #50D8AF;
+}
+.shadow {
+    box-shadow: 7px 6px 15px rgba(0, 0, 0, 0.1);
+}
 h1 {
     font-size: 30px;
 }
@@ -55,4 +63,10 @@ h1 {
 }
 .about-row ul li {
     list-style-type: none;
+}
+/* fin section presentation */
+
+/* debut services */
+.service-article-title {
+    font-size: 20px;
 }
