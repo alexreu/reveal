@@ -70,3 +70,17 @@ h1 {
 .service-article-title {
     font-size: 20px;
 }
+/* fin services */
+
+/* debut testimonials */
+.indicators {
+    height: 10px;
+    width: 10px;
+    background-color: #DDDDDD;
+    border-radius: 50%;
+    position: relative;
+}
+.slider-indicators  .active {
+    background-color: #50D8AF !important;
+}
+/* fin testimonials */
