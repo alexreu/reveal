@@ -1,6 +1,13 @@
 body {
     font-family: "Raleway", sans-serif !important;
 }
+hr {
+    background-color: #50D8AF !important;
+    height: 2.5px;
+    width: 50px;
+    border: none;
+    margin: 0 !important;
+}
 .azure {
     color: #50D8AF;
 }
@@ -23,6 +30,9 @@ body {
 }
 .shadow {
     box-shadow: 7px 6px 15px rgba(0, 0, 0, 0.1);
+}
+.min-shadow {
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
 }
 h1 {
     font-size: 30px;
@@ -73,19 +83,30 @@ h1 {
 /* fin services */
 
 /* debut testimonials */
-.indicators {
-    height: 10px;
-    width: 10px;
-    background-color: #DDDDDD;
-    border-radius: 50%;
-    position: relative;
-}
-.slider-indicators  .active {
+.carousel-indicators  .active {
     background-color: #50D8AF !important;
+}
+.my-indicators {
+    height: 10px !important;
+    width: 10px !important;
+    background-color: #ddd !important;
+    border-radius: 50%;
 }
 /* fin testimonials */
 
 /* debut section action */
 .my-btn {
     border: 2px solid #fff !important;
+}
+/* fin section action */
+/* debut contact */
+.message-btn {
+    background-color: #50D8AF;
+    border: none;
+    color: #fff;
+}
+/* fin contact */
+/* debut footer */
+footer {
+    background-color: #F2F5F8;
 }

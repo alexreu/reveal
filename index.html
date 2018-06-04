@@ -12,10 +12,10 @@
 </head>
   <body>
     <!-- header -->
-        <!-- menu contact -->
-        <!-- navbar -->
+    <!-- menu contact -->
+    <!-- navbar -->
     <header>
-        <div class="container-fluid border-bottom menu-contact">
+        <div class="container-fluid border-bottom menu-contact d-none d-sm-non d-md-block d-lg-block">
             <ul class="nav container">
                 <li class="nav-item mt-1">
                     <a class="nav-link text-dark contact-menu border-right h-75 p-0 pt-1 pr-3" href="#"><i class="far fa-envelope azure"></i> contact@example.com</a>
@@ -41,11 +41,11 @@
             </ul>
         </div>
         <div class="container-fluid bg-white">
-            <nav class="container navbar navbar-expand-md pt-4 pb-4">
+            <nav class="container navbar navbar-expand-md pt-3 pb-3">
                 <a class="navbar-brand font-weight-bold reveal-brand" href="#"> <span class="dark-blue">Reve</span><span class="azure">al</span></a>
                 <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-bars dark-blue"></i> <span class="font-weight-bold text-uppercase">Menu</span> 
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav ml-auto">
@@ -79,256 +79,302 @@
             </nav>
         </div>
     </header>
-        
-    <!-- section -->
+    <main>    
+        <!-- section -->
         <!-- banner -->
-    <section id="banner">
-        <div class="overlay-banner">
-            <div class="col-md-3 mx-auto text-center banner-content">
-                <h1 class="font-weight-bold dark-blue banner-title">
-                    Making <span class="azure underline">your ideas</span> happen!
-                </h1>
-                <a href="#" class="btn text-white font-weight-bold rounded-0 bg-dark-blue mr-2 mt-4 pl-3 pr-3 pt-1 pb-1"><span>Get Started</span></a>
-                <a href="#" class="btn text-white font-weight-bold rounded-0 bg-azure ml-2 mt-4 pl-3 pr-3 pt-1 pb-1"><span>Our Projects</span></a>
+        <section id="banner">
+            <div class="overlay-banner">
+                <div class="col-md-3 mx-auto text-center banner-content">
+                    <h1 class="font-weight-bold dark-blue banner-title">
+                        Making <span class="azure underline">your ideas</span> happen!
+                    </h1>
+                    <a href="#" class="btn text-white font-weight-bold rounded-0 bg-dark-blue mr-2 mt-4 pl-3 pr-3 pt-1 pb-1"><span>Get Started</span></a>
+                    <a href="#" class="btn text-white font-weight-bold rounded-0 bg-azure ml-2 mt-4 pl-3 pr-3 pt-1 pb-1"><span>Our Projects</span></a>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- section presentation -->
-    <section id="presentaion" class="container pt-5 pb-5">
-        <div class="row justify-content-between about-row">
-            <div class="col-12 col-md-6 img-about">
+        </section>
+        <!-- section presentation -->
+        <section id="presentaion" class="container pt-5 pb-5">
+            <div class="row justify-content-between about-row">
+                <div class="col-md-6 img-about d-none d-sm-none d-md-block d-lg-block">
+                </div>
+                <article class="col-12 col-md-6">
+                    <h1 class="dark-blue font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing</h1>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ut amet, 
+                        expedita nam labore ipsa exercitationem minus! Nam aute.
+                    </p>
+                    <ul class="p-0">
+                        <li>
+                            <p>
+                                <i class="far fa-check-circle azure"></i>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi maxime earum, corrupti tenetur fuga sed.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="far fa-check-circle azure"></i>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi maxime earum, corrupti tenetur fuga sed.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="far fa-check-circle azure"></i>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel deleniti expedita velit omnis eius 
+                                temporibus dicta, explicabo doloremque nulla? Quibusdam accusantium.
+                            </p>
+                        </li>
+                    </ul>
+                </article>
             </div>
-            <article class="col-12 col-md-6 ">
-                <h1 class="dark-blue font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing</h1>
-                <p class="text-muted">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ut amet, 
-                    expedita nam labore ipsa exercitationem minus! Nam aute.
-                </p>
-                <ul class="p-0">
-                    <li>
-                        <p>
-                            <i class="far fa-check-circle azure"></i>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi maxime earum, corrupti tenetur fuga sed.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <i class="far fa-check-circle azure"></i>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi maxime earum, corrupti tenetur fuga sed.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <i class="far fa-check-circle azure"></i>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel deleniti expedita velit omnis eius 
-                            temporibus dicta, explicabo doloremque nulla? Quibusdam accusantium.
-                        </p>
-                    </li>
-                </ul>
-            </article>
-        </div>
-    </section>
-    <!-- section services -->
+        </section>
+        <!-- section services -->
         <!-- article * 4 -->
-    <section id="services" class="container pb-5">
-        <h1 class="text-uppercase dark-blue font-weight-bold m-0">services</h1>
-        <div class="col-md-1 pb-3 pt-2 pr-5 pl-0">
-            <div class="underline-title"></div>
-        </div>
-        <p class="text-muted m-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis blanditiis rem ullam voluptates odit harum eius 
-            cum dignissimos, totam, fuga provident velit nobis sequi neque quas illum maxime? Reprehenderit, enim!
-        </p>
-        <div class="row pb-4 pt-5 justify-content-center">
-            <article class="col-md-5 d-flex pt-3 pb-2 mr-3 h-75 shadow">
-                <i class="far fa-chart-bar fa-5x azure"></i>
-                <div class="pl-5">
-                    <h1 class="font-weight-bold service-article-title">Lorem ipsum</h1>
-                    <p class="text-muted">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quidem pariatur optio voluptatem eligendi 
-                        provident? Quod, accusamus
-                </div>
-            </article>
-            <article class="col-md-5 d-flex pt-3 pb-2 ml-3 h-75 shadow">
-                <i class="far fa-image fa-5x azure"></i>
-                <div class="pl-5">
-                    <h1 class="font-weight-bold service-article-title">Dolor Sitema</h1>
-                    <p class="text-muted">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quidem pariatur optio voluptatem eligendi 
-                        provident? Quod, accusamus
-                </div>
-            </article>
-        </div>
-        <div class="row justify-content-center">
-            <article class="col-md-5 d-flex pt-3 pb-2 mr-3 h-75 shadow">
-                <i class="fas fa-shopping-bag fa-5x azure"></i>
-                <div class="pl-5">
-                    <h1 class="font-weight-bold service-article-title">Sed ut perspiciatis</h1>
-                    <p class="text-muted">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quidem pariatur optio voluptatem eligendi 
-                        provident? Quod, accusamus
-                </div>
-            </article>
-            <article class="col-md-5 d-flex pt-3 pb-2 ml-3 h-75 shadow">
-                <i class="fas fa-map fa-5x azure"></i>
-                <div class="pl-5">
-                    <h1 class="font-weight-bold service-article-title">Magni Dolores</h1>
-                    <p class="text-muted">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quidem pariatur optio voluptatem eligendi 
-                        provident? Quod, accusamus
-                </div>
-            </article>
-        </div>
-    </section>
-    <!-- section testimonials -->
+        <section id="services" class="container pb-5">
+            <h1 class="text-uppercase dark-blue font-weight-bold m-0">services</h1>
+            <hr class="mb-3 mt-3">
+            <p class="text-muted m-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis blanditiis rem ullam voluptates odit harum eius 
+                cum dignissimos, totam, fuga provident velit nobis sequi neque quas illum maxime? Reprehenderit, enim!
+            </p>
+            <div class="row pb-4 pt-5 justify-content-around">
+                <article class="col-md-5 d-flex pt-3 pb-2 shadow">
+                    <i class="far fa-chart-bar fa-5x azure"></i>
+                    <div class="pl-5">
+                        <h1 class="font-weight-bold service-article-title">Lorem ipsum</h1>
+                        <p class="text-muted">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quidem pariatur optio voluptatem eligendi 
+                            provident? Quod, accusamus
+                    </div>
+                </article>
+                <article class="col-md-5 d-flex pt-3 pb-2 shadow">
+                    <i class="far fa-image fa-5x azure"></i>
+                    <div class="pl-5">
+                        <h1 class="font-weight-bold service-article-title">Dolor Sitema</h1>
+                        <p class="text-muted">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quidem pariatur optio voluptatem eligendi 
+                            provident? Quod, accusamus
+                    </div>
+                </article>
+            </div>
+            <div class="row justify-content-around pt-4">
+                <article class="col-md-5 d-flex pt-3 pb-2 shadow">
+                    <i class="fas fa-shopping-bag fa-5x azure"></i>
+                    <div class="pl-5">
+                        <h1 class="font-weight-bold service-article-title">Sed ut perspiciatis</h1>
+                        <p class="text-muted">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quidem pariatur optio voluptatem eligendi 
+                            provident? Quod, accusamus
+                    </div>
+                </article>
+                <article class="col-md-5 d-flex pt-3 pb-2 shadow">
+                    <i class="fas fa-map fa-5x azure"></i>
+                    <div class="pl-5">
+                        <h1 class="font-weight-bold service-article-title">Magni Dolores</h1>
+                        <p class="text-muted">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quidem pariatur optio voluptatem eligendi 
+                            provident? Quod, accusamus
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- section testimonials -->
         <!-- article * 3 -->
-    <section id="testomonials" class="container pt-4 pb-5">
-        <h1 class="text-uppercase font-weight-bold dark-blue">
-            testimonials
-        </h1>
-        <div class="col-md-1 pb-3 pt-2 pr-5 pl-0">
-            <div class="underline-title"></div>
-        </div>
-        <p class="text-muted">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero quod dignissimos ipsa facere 
-            pariatur in ut autem praesentium necessitatibus ad sit soluta, voluptatibus nobis tenetur 
-            ducimus rem harum neque saepe.
-        </p>
-        <div id="carouselId" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <div class="row justify-content-around">
-                        <div class="col-md-3 card text-center">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <img src="img/quote-sign-left.png" alt="guillement gauche">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
-                                    Rerum similique eaque sequi. Blanditiis corrupti 
-                                    <img src="img/quote-sign-right.png" alt="guillement droit">
-                                </p>
-                                <img src="img/testimonial-3.jpg" alt="John larson" class="img-fluid rounded-circle" height="100" width="100">
-                                <h4 class="card-title font-weight-bold">Jena Karlis</h4>
-                                <p class="text-muted">
-                                    Store Owner
-                                </p>
+        <section id="testomonials" class="container pt-4">
+            <h1 class="text-uppercase font-weight-bold dark-blue">
+                testimonials
+            </h1>
+            <hr class="mb-3 mt-3">
+            <p class="text-muted">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero quod dignissimos ipsa facere 
+                pariatur in ut autem praesentium necessitatibus ad sit soluta, voluptatibus nobis tenetur 
+                ducimus rem harum neque saepe.
+            </p>
+            <div id="carouselId" class="carousel slide" data-ride="carousel">
+                <div class="slider-indicators pt-5 pb-5">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="my-indicators active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="my-indicators"></li>
+                        </ol>
+                    <div class="carousel-inner pb-3" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-around">
+                                <div class="col-md-3 card text-center min-shadow">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <img src="img/quote-sign-left.png" alt="guillement gauche">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
+                                            Rerum similique eaque sequi. Blanditiis corrupti.
+                                            <img src="img/quote-sign-right.png" alt="guillement droit">
+                                        </p>
+                                        <img src="img/testimonial-3.jpg" alt="John larson" class="img-fluid rounded-circle" height="100" width="100">
+                                        <h4 class="card-title font-weight-bold">Jena Karlis</h4>
+                                        <p class="text-muted">
+                                            Store Owner
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 card text-center min-shadow">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <img src="img/quote-sign-left.png" alt="guillement gauche">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
+                                            Rerum similique eaque sequi. Blanditiis corrupti 
+                                            <img src="img/quote-sign-right.png" alt="guillement droit">
+                                        </p>
+                                        <img src="img/testimonial-4.jpg" alt="jena karlis" class="img-fluid rounded-circle" height="100" width="100">
+                                        <h4 class="card-title font-weight-bold">Matt Brandon</h4>
+                                        <p class="text-muted">
+                                            Freelancer
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 card text-center min-shadow">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <img src="img/quote-sign-left.png" alt="guillement gauche">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
+                                            Rerum similique eaque sequi. Blanditiis corrupti 
+                                            <img src="img/quote-sign-right.png" alt="guillement droit">
+                                        </p>
+                                        <img src="img/testimonial-5.jpg" alt="jena karlis" class="img-fluid rounded-circle" height="100" width="100">
+                                        <h4 class="card-title">John Larson</h4>
+                                        <p class="text-muted">
+                                            Entrepreneur
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-3 card text-center">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <img src="img/quote-sign-left.png" alt="guillement gauche">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
-                                    Rerum similique eaque sequi. Blanditiis corrupti 
-                                    <img src="img/quote-sign-right.png" alt="guillement droit">
-                                </p>
-                                <img src="img/testimonial-4.jpg" alt="jena karlis" class="img-fluid rounded-circle" height="100" width="100">
-                                <h4 class="card-title">Matt Brandon</h4>
-                                <p class="text-muted">
-                                    Freelancer
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 card text-center">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <img src="img/quote-sign-left.png" alt="guillement gauche">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
-                                    Rerum similique eaque sequi. Blanditiis corrupti 
-                                    <img src="img/quote-sign-right.png" alt="guillement droit">
-                                </p>
-                                <img src="img/testimonial-5.jpg" alt="jena karlis" class="img-fluid rounded-circle" height="100" width="100">
-                                <h4 class="card-title">John Larson</h4>
-                                <p class="text-muted">
-                                    Entrepreneur
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row justify-content-around">
-                        <div class="col-md-3 text-center card">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <img src="img/quote-sign-left.png" alt="guillement gauche">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
-                                    Rerum similique eaque sequi. Blanditiis corrupti 
-                                    <img src="img/quote-sign-right.png" alt="guillement droit">
-                                </p>
-                                <img src="img/testimonial-3.jpg" alt="jena karlis" class="img-fluid rounded-circle" height="100" width="100">
-                                <h4 class="card-title">John Doe</h4>
-                                <p class="text-muted">
-                                    Developer
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 text-center card">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <img src="img/quote-sign-left.png" alt="guillement gauche">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
-                                    Rerum similique eaque sequi. Blanditiis corrupti 
-                                    <img src="img/quote-sign-right.png" alt="guillement droit">
-                                </p>
-                                <img src="img/testimonial-3.jpg" alt="jena karlis" class="img-fluid rounded-circle" height="100" width="100">
-                                <h4 class="card-title">John Doe</h4>
-                                <p class="text-muted">
-                                    Developer
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 text-center card">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <img src="img/quote-sign-left.png" alt="guillement gauche">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
-                                    Rerum similique eaque sequi. Blanditiis corrupti 
-                                    <img src="img/quote-sign-right.png" alt="guillement droit">
-                                </p>
-                                <img src="img/testimonial-3.jpg" alt="jena karlis" class="img-fluid rounded-circle" height="100" width="100">
-                                <h4 class="card-title">John Doe</h4>
-                                <p class="text-muted">
-                                    Developer
-                                </p>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">
+                                <div class="col-md-3 text-center card min-shadow">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <img src="img/quote-sign-left.png" alt="guillement gauche">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
+                                            Rerum similique eaque sequi. Blanditiis corrupti 
+                                            <img src="img/quote-sign-right.png" alt="guillement droit">
+                                        </p>
+                                        <img src="img/testimonial-3.jpg" alt="jena karlis" class="img-fluid rounded-circle" height="100" width="100">
+                                        <h4 class="card-title">John Doe</h4>
+                                        <p class="text-muted">
+                                            Developer
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-center card min-shadow">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <img src="img/quote-sign-left.png" alt="guillement gauche">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
+                                            Rerum similique eaque sequi. Blanditiis corrupti 
+                                            <img src="img/quote-sign-right.png" alt="guillement droit">
+                                        </p>
+                                        <img src="img/testimonial-3.jpg" alt="jena karlis" class="img-fluid rounded-circle" height="100" width="100">
+                                        <h4 class="card-title">John Doe</h4>
+                                        <p class="text-muted">
+                                            Developer
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-center card min-shadow">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <img src="img/quote-sign-left.png" alt="guillement gauche">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore sint eius ullam quam alias eum optio.
+                                            Rerum similique eaque sequi. Blanditiis corrupti 
+                                            <img src="img/quote-sign-right.png" alt="guillement droit">
+                                        </p>
+                                        <img src="img/testimonial-3.jpg" alt="jena karlis" class="img-fluid rounded-circle" height="100" width="100">
+                                        <h4 class="card-title">John Doe</h4>
+                                        <p class="text-muted">
+                                            Developer
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <!-- <ol class="carousel-indicators">
-                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselId" data-slide-to="1"></li>
-            </ol> -->
-        </div>
-        <div class="slider-indicators pt-5 pb-5">
-            <div class="col-md-2 mx-auto d-flex justify-content-center">
-                <div data-target="#carouselId" data-slide-to="0" class="indicators mr-2 active"></div>
-                <div data-target="#carouselId" data-slide-to="1" class="indicators"></div>
+        </section>
+        <!-- section call to action -->
+        <section id="action" class="container-fluid bg-dark-blue">
+            <div class="container">
+                <div class="row pt-5 pb-5">
+                    <article class="col-md-8">
+                        <h1 class="text-white font-weight-bold">Call To Action</h1>
+                        <p class="text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem pariatur blanditiis labore optio, 
+                            voluptate beatae recusandae sed quas odit officia autem fuga fugit sunt ea laborum aliquid,
+                        </p>
+                    </article>
+                    <div class="col-md-2 offset-md-1 d-flex align-items-center">
+                        <a href="#" class="btn btn-outline-light my-btn font-weight-bold rounded-0">Call To Action</a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- section call to action -->
-    <section id="action" class="container-fluid bg-dark-blue">
-        <div class="container">
-            <div class="row pt-5 pb-5">
-                <article class="col-md-8">
-                    <h1 class="text-white font-weight-bold">Call To Action</h1>
-                    <p class="text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem pariatur blanditiis labore optio, 
-                        voluptate beatae recusandae sed quas odit officia autem fuga fugit sunt ea laborum aliquid,
+        </section>
+        <!-- section contact us -->
+        <section id="contact" class="container pt-4 pb-4">
+            <h1 class="text-uppercase font-weight-bold dark-blue">
+                contact us
+            </h1>
+            <hr class="mb-3 mt-3">
+            <p class="text-muted pt-2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam et temporibus quasi consectetur id accusantium a soluta, 
+                iste quisquam ipsa saepe suscipit vitae cumque pariatur reprehenderit quas veniam? Officiis, praesentium?
+            </p>
+            <div class="row pt-3 pb-5">
+                <article class="col-md-4 p-0 text-center pt-4">
+                    <i class="fas fa-map-marker-alt fa-2x azure pb-4"></i>
+                    <h1 class="text-secondary text-uppercase pb-3">address</h1>
+                    <p class="text-dark font-weight-bold">A108 Adam Street, NY 535022, USA</p>
+                </article>
+                <article class="col-md-4 p-0 pt-4 border-left border-right text-center">
+                    <i class="fas fa-phone fa-2x azure pb-4"></i>
+                    <h1 class="text-secondary text-uppercase pb-3">phone number</h1>
+                    <p class="text-dark font-weight-bold">+1 5589 55488 55</p>
+                </article>
+                <article class="col-md-4 p-0 pt-4 text-center">
+                    <i class="far fa-envelope fa-2x azure pb-4"></i>
+                    <h1 class="text-secondary text-uppercase pb-3">
+                        email
+                    </h1>
+                    <p class="text-dark font-weight-bold">
+                        info@example.com
                     </p>
                 </article>
-                <div class="col-md-2 offset-md-1 d-flex align-items-center">
-                    <a href="#" class="btn btn-outline-light my-btn font-weight-bold rounded-0">Call To Action</a>
-                </div>
             </div>
-        </div>
-    </section>
-    <!-- section contact us -->
-
-
-
+            <form action="#">
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" rows="4" class="form-control" placeholder="Message"></textarea>
+                </div>
+                <div class="col-md-2 offset-md-5">
+                    <button class="btn rounded-0 message-btn" type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="text-center pt-5 pb-5">
+        <p class="m-0">
+            <i class="far fa-copyright"></i> Copyright <span class="font-weight-bold">Alex Development</span>. All Rights Reserved
+        </p>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
