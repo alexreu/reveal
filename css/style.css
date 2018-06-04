@@ -1,0 +1,58 @@
+body {
+    font-family: "Raleway", sans-serif !important;
+}
+.azure {
+    color: #50D8AF;
+}
+.bg-azure {
+    background-color: #50D8AF;
+}
+.dark-blue {
+    color: #0c2e8a;
+}
+.bg-dark-blue {
+    background-color: #0c2e8a;
+}
+.underline {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 30px;
+}
+/* menu contact */
+.contact-menu {
+    text-decoration: none;
+}
+/* fin menu contact */
+/* debut navbar */
+.reveal-brand {
+    font-size: 30px;
+}
+/* fin navbar */
+/* debut banner */
+#banner {
+    background: url(../img/3.jpg) no-repeat fixed;
+    background-size: cover;
+}
+.overlay-banner {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.banner-title {
+    font-size: 50px !important;
+}
+.banner-content {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.banner-content a span {
+    font-size: 10px;
+}
+/* fin banner */
+/* debut section presentation */
+.img-about {
+    background: url(../img/about-img.jpg) no-repeat center;
+    background-size: cover;
+}
+.about-row ul li {
+    list-style-type: none;
+}
